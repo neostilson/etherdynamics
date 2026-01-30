@@ -357,7 +357,7 @@
                         <div class="contact-item">
                             <label>Email</label>
                             <!-- Replace with your real email -->
-                            <a href="mailto:hello@etherdynamics.com">hello@etherdynamics.com</a>
+                            <a href="mailto:ether@etherdynamics.space">ether@etherdynamics.space</a>
                         </div>
 
                         <div class="contact-item">
@@ -373,7 +373,13 @@
                     </div>
                 </div>
 
-                <form class="contact-form" onsubmit="handleSubmit(event)">
+                <form
+                  class="contact-form"
+                  action="https://formspree.io/f/mrekjogo"
+                  method="POST"
+                >
+                    <input type="hidden" name="_subject" value="New contact from Ether Dynamics">
+                    <input type="hidden" name="_replyto" value="%email%">
                     <div class="form-row">
                         <div class="form-group">
                             <label for="name">Full Name</label>
@@ -432,6 +438,7 @@
     <script src="tooplate-graphite-script.js"></script>
 </body>
 </html>
+
 
 
 
